@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ranade';
+}
+body{
+    background-color: #e7e7e7;
+}
+.game{
+    border: solid 2px white;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    box-shadow:0 0 10px black ;
+}
+#buttonarea{
+    border: none;
+    border-radius:6px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#04AA6D ;
+    color: aliceblue;
+}
+.control{
+    margin-top:40px ;
+}
+#buttonarea:hover{
+    background-color:#059862 ;
+}
+#userguess{
+    padding: 5px;
+}
+#report{
+    border-radius: 5px;
+    background-color: #FFF4A3;
+    color: black;
+    margin: 40px 30px 5px 30px;
+}
