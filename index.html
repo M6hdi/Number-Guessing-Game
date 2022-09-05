@@ -3,20 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome kit -->
+        <script src="https://kit.fontawesome.com/31ac12f276.js" crossorigin="anonymous"></script>
         <!-- link to css file -->
         <link rel="stylesheet" href="styles.css">
         <!-- font Ranade -->
         <link href='http://fonts.cdnfonts.com/css/ranade' rel='stylesheet' type='text/css'>
+        <title>Number Guessing Game</title>
+        <link rel="icon" href="icon.ico">
     </head>
     <body>
         <div class="game">
             <h1 id="title">Number Guessing Game</h1>
-            <p class="desc">Enter a number between 1-20 and click the button:</p>
+            <p class="desc">Enter a number between 1-10 and click the button:</p>
             <div class="control">
                 <input type="number" placeholder="Enter Here ..." id="userguess">
                     <button id="buttonarea">Guess</button>
-                </div>    
-            <h2 id="report">Your Guess Result:</h2>
+                    <button id="restart">Restart</button>
+            </div>    
+            <h2 id="report"><i class="fa-solid fa-xmark" id="lose"></i><i class="fa-solid fa-check" id="win"></i></h2>
         </div>
         <!-- link to js file -->
         <script src="script.js"></script>

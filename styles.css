@@ -10,10 +10,8 @@ body{
 .game{
     border: solid 2px white;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(15, 1, 60);
     color:white;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     margin: 30px;
     text-align: center;
@@ -32,14 +30,34 @@ body{
     color: aliceblue;
 }
 #buttonarea:hover{
-    background-color:#059862 ;
+    background-color:#037c4f ;
+}
+#lose{
+    display: none;
+    color:rgb(230,20,10);
+}
+#win{
+    display: none;
+    color:rgb(10,150,4);
+}
+#restart{
+    display: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgb(251, 107, 5);
+    color: white;
+}
+#restart:hover{
+    background-color: rgb(218, 95, 8);
 }
 #userguess{
     padding: 5px;
+    border-radius: 5px;
 }
 #report{
     border-radius: 5px;
     background-color: #FFF4A3;
-    color: black;
     margin: 40px 30px 5px 30px;
 }
